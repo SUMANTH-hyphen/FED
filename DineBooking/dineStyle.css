@@ -1,0 +1,17 @@
+.ex2Heading{
+    text-align: center;
+}
+.ex2Form{
+    margin-left:auto;
+    margin-right: auto;
+    width:fit-content;
+}
+.ex2Table{
+    text-align: left;
+}
+td{
+    padding: 8px;    
+}
+.ex2Button{
+    text-align:center
+}

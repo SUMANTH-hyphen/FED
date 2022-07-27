@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Booking</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='dineStyle.css'>
+        <script src=''></script>
+    </head>
+    <body>
+        <div class="ex2Div">
+            <form class="ex2Form">
+                <h1 class="ex2Heading">Dine Booking</h1>
+                <table class="ex2Table">
+                    <tr>
+                        <th>Visitor Name: </th>
+                        <td><input type="text" name="vname" size="20" required/></td>
+                    </tr>
+                    <tr>
+                        <th>Members: </th>
+                        <td><input type="number" name="members" size="2" required/></td>
+                    </tr>
+                    <tr>
+                        <th>Contact No: : </th>
+                        <td><input type="number" name="contact" size="10" required/></td>
+                    </tr>
+                    <tr>
+                        <th>Email:  </th>
+                        <td><input type="email" name="email" required/></td>
+                    </tr>
+                    <tr>
+                        <th>Type of Food:  </th>
+                        <td>
+                            <input type="checkbox" name="food1" value="si" checked/>South Indian<br>
+                            <input type="checkbox" name="food2" value="ne"/>North Indian<br>
+                            <input type="checkbox" name="food3" value="chinese"/>Chinese<br>
+                            <input type="checkbox" name="food4" value="western"/>Western
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Room Status:  </th>
+                        <td>
+                            <input type="radio" name="room" value="ac" required checked/>AC
+                            <input type="radio" name="room" value="nac" required/>Non-AC
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Venue Preference:  </th>
+                        <td>
+                            <select name="venue" required>
+                                <option value="null">Select</option>
+                                <option value="gtr">Arena</option>
+                                <option value="vji">Fiesta</option>
+                                <option value="ong">Vista</option>
+                                <option value="ong">Mythri</option>
+                                <option value="ong">Magna</option>
+                                <option value="ong">Oasis</option>
+                                <option value="ong">Amoeba</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ex2Button"><input type="submit"></td>
+                        <td class="ex2Button"><input type="reset"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
