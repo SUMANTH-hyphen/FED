@@ -1,5 +1,11 @@
 {
   "fundscheme":{
     "tablehead": ["S.NO", "Scheme ID", "Scheme Name", "Date"]
+    "tabledata": {
+      "sno": 1,
+      "sid": 111,
+      "sname": "Scheme1",
+      "sdate": "1-1-22"
+    }
   }
 }
