@@ -1,21 +1,21 @@
 {
   "fundscheme":{
     "tablehead":["S.No", "Scheme ID", "Scheme Name", "Date"],
-    "tabledata:[
+    "tabledata":[
     { "sno": 1,
       "sid": 111,
       "sname": "Scheme1",
-      "sdate": "1-1-22',
+      "sdate": "1-1-22",
     },
     { "sno": 2,
       "sid": 112,
       "sname": "Scheme2",
-      "sdate": "2-2-22',
+      "sdate": "2-2-22",
     },
     { "sno": 1,
       "sid": 111,
       "sname": "Scheme1",
-      "sdate": "1-1-22',
+      "sdate": "1-1-22",
     }]
   }
 }
