@@ -1,8 +1,5 @@
 {
   "fundscheme":{
-    "id":111,
-    "name": "oneoneone",
-    "branch": "CSE",
-    "year": 3
+    "tablehead": ["S.NO", "Scheme ID", "Scheme Name", "Date"]
   }
 }
